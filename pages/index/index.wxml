@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="classname">
+    <swiper></swiper>
+    <view>测试</view>
+</view>
