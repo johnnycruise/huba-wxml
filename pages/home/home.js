@@ -12,7 +12,14 @@ Page({
 
     _loadData:function(){
         var id = 1;
-        var data = home.getBannerData();
+        var data = home.getBannerData(id,(res)=>{
+            console.log(res);
+        });
+        // console.log(data);
+    },
 
+    callBack:function(res){
+        console.log(res);
     }
+
 })
